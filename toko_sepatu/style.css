@@ -1,0 +1,46 @@
+.jumbotron {
+    background-image: url("img/3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron::before {
+    content: attr(alt);
+    display: none;
+}
+
+
+.card {
+margin-bottom: 20px;
+}
+
+footer {
+padding: 30px 0;
+}
+
+footer h4 {
+margin-bottom: 20px;
+}
+
+footer p {
+margin-bottom: 10px;
+}
+
+footer .container {
+margin-top: 30px;
+}
+
+footer a {
+color: #fff;
+}
+
+@media (max-width: 575.98px) {
+.navbar-expand-sm .navbar-nav .nav-link {
+padding: 0.5rem 0;
+}
+
+.navbar-expand-sm .navbar-brand {
+padding: 0;
+}
+}
+  
